@@ -1,0 +1,28 @@
+✈️ Trip Advisor — Travel Discovery Web App
+
+A responsive front-end web application for exploring travel destinations, hotels, and attractions.
+
+🌐 Live Demo ↗ https://nitro77-gx.github.io/Trip-Advisor/
+HTML
+CSS
+GitHub Pages
+📌 Overview
+
+Trip Advisor is a responsive travel discovery web application that allows users to explore destinations, browse hotels, restaurants, and attractions with a clean and modern UI. Built and deployed using GitHub Pages.
+
+✨ Features
+
+Clean, responsive UI for desktop and mobile
+Browse travel destinations and attractions
+Smooth navigation and interactive layout
+Deployed live via GitHub Pages
+🛠 Tech Stack
+
+HTML5 — semantic structure
+CSS3 — custom styling and responsive layout
+
+🚀 Getting Started
+
+git clone https://github.com/nitro77-gx/Trip-Advisor.git
+cd Trip-Advisor
+open index.html
