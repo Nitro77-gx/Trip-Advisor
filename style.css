@@ -366,14 +366,41 @@ body {
     color: #3AF5E1;
 }
 
-@media screen and (max-width: 768px) {
-    .cards {
+@media screen and (max-width: 700px) {
+    .mid__s2-category-cards {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    .mid__s2-category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
     }
 
     .mid__s2-category-cards {
+        width: 100%;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 80px;
+
+    }
+
+    .mid__s3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mid__s3-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .nav__search {
@@ -382,9 +409,16 @@ body {
     }
 
     .mid__middle {
+        display: flex;
         flex-direction: column;
         gap: 10px;
 
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:50px;
     }
 
     .nav__s2 {
@@ -393,7 +427,7 @@ body {
 
     .nav__title {
         font-size: 10px;
-        margin-left: -90px;
+        margin-left: -50px;
     }
 
     .nav__title-s1,
@@ -403,28 +437,31 @@ body {
         align-self: flex-start;
     }
 
-}
+    .nav__s3{
+        margin-right:-4em;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-self: flex-start;
+    }
 
-.nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+    .bottom__s1 {
+        gap: 5px;
+        width: 100%;
+    }
 
-.bottom__s1 {
-    gap: 5px;
-    width: 100%;
-}
+    .bottom__s3 {
+        width: 100%;
+    }
 
-.bottom__s3 {
-    width: 100%;
-}
-
-.bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 }
